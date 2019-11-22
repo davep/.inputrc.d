@@ -1,0 +1,15 @@
+# -*- conf -*-
+
+# Completion configuration.
+set show-all-if-ambiguous on
+set completion-ignore-case on
+
+# Hangover from older days, have PgUp/Dn search history.
+"\e[5~": history-search-backward
+"\e[6~": history-search-forward
+
+# Have up/down arrow search history too.
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+
+### inputrc ends here
